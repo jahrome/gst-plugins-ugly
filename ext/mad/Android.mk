@@ -25,8 +25,8 @@ LOCAL_MODULE:= libgstmad
 
 LOCAL_C_INCLUDES := 			\
 	$(LOCAL_PATH)			\
-	$(GST_PLUGINS_BAD_TOP)		\
-	$(GST_PLUGINS_BAD_TOP)/android	\
+	$(GST_PLUGINS_UGLY_TOP)		\
+	$(GST_PLUGINS_UGLY_TOP)/android	\
 	external/gstreamer		\
 	external/gstreamer/android 	\
 	external/gstreamer/libs		\
