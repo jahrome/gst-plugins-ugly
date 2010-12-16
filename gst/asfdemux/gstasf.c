@@ -53,10 +53,6 @@ plugin_init (GstPlugin * plugin)
           GST_TYPE_RTSP_WMS)) {
     return FALSE;
   }
-  if (!gst_element_register (plugin, "rtpasfdepay", GST_RANK_MARGINAL,
-          GST_TYPE_RTP_ASF_DEPAY)) {
-    return FALSE;
-  }
 /*
   if (!gst_element_register (plugin, "asfmux", GST_RANK_NONE, GST_TYPE_ASFMUX))
     return FALSE;
